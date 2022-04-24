@@ -16,6 +16,10 @@ body {
     font-size: 30px;
 }
 
+.etiqDiv {
+    font-size: 20px;
+}
+
 #add {
     background-color: #67563C;
     color: antiquewhite;
@@ -23,8 +27,73 @@ body {
     padding: 2%;
 }
 
+#nameH,
+#especieH,
+#familyH,
+#describeH {
+    font-size: 15px;
+}
+
+#nameH,
+#describeH {
+    border-radius: 10px;
+    border-style: none;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 2%;
+}
+
+#familyH,
+#especieH {
+    border-radius: 10px;
+    border-style: none;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 2%;
+}
+
 #add-title {
     font-size: 25px;
+    text-align: center;
+}
+
+#register {
+    text-align: center;
+}
+
+#btnAdd {
+    border-radius: 15px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border-style: none;
+    background-color: #3D3414;
+    color: antiquewhite;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#divRegister {
+    height: 70px;
+    margin: 0%;
+    text-align: center;
+}
+
+#btnAdd:hover {
+    background-color: #1C1B1A;
+    width: 155px;
+    height: 38px;
+}
+
+#icon-hongo {
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 2%;
+    margin-right: 0.5%;
+    border-style: dashed;
+}
+
+#show {
+    text-align: center;
 }
 
 footer {
